@@ -2,7 +2,7 @@ import navlogo from "../img/navbar_logo.jpg"
 import ifnmulogo from "../img/ifnmu_logo.png"
 function Navbar(){
     return(
-        <div className="flex  w-12/12 mb-8  gap-8 mx-auto py-2 shadow-md fixed top-0 bg-white px-10 justify-between items-center">
+        <div className="flex  w-12/12 mb-8 z-150  gap-8 mx-auto py-2 shadow-md fixed top-0 bg-white px-10 justify-between items-center">
             <div className="flex gap-2">
                 <img className="w-10 h-10" src={navlogo} alt="" /> 
                 <p className="text-3xl pl-2" >Student Guide</p>
