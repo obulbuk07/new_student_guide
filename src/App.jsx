@@ -10,11 +10,11 @@ function App() {
     <>
       <Navbar/>
       <Banner/>
-      <Important
+      {/*<Important
         title="Вартість, правила поселення і проживання."
         info="Деталі про вартість, правила поселення і проживання у гуртожитках читайте на офіційній сторінці студентського профспілкового комітету."
         link="https://www.ifnmu.edu.ua/home/public-information/student-trade-union/"
-      />
+      />*/}
       <Locations/>
     </>
   )

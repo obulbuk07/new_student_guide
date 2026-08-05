@@ -2,9 +2,11 @@ import BigLogo from "../img/big_logo.jpg"
 
 function Banner(){
     return(
-        <div className=" flex flex-row-reverse p-4 gap-10 items-center justify-between mx-auto w-3/4 mb-8 mt-20">
+        <div className=" flex flex-row-reverse p-4 gap-10 items-center justify-between mx-auto w-3/4 mb-8 mt-30">
             <img className="w-80" src={BigLogo} alt="" />
-            <p className="text-xl pr-10" > Student Guide стане корисним для студентів, які тільки починають навчання у нашому фаховому медичному коледжі чи Університеті, а також для тих, хто вже є студентом, але хоче дізнатися більше про різні послуги та можливості, які надає Університет.</p>
+            <p className="text-xl pr-10" ><span className="text-red-400 font-bold text-xl" >Student Guide</span> стане вашим надійним навігатором у навчанні. Проєкт створено для першокурсників, які тільки знайомляться з життям у нашому фаховому медичному коледжі чи Університеті, щоб допомогти їм легко та швидко адаптуватися до нового середовища.
+
+Також путівник буде корисним і для студентів старших курсів, які прагнуть дізнатися більше про сервіси, ресурси та додаткові можливості, що надає наш заклад.</p>
         </div>
     )
 }
